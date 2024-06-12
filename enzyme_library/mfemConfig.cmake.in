@@ -1,0 +1,9 @@
+get_filename_component(mfem_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+include(CMakeFindDependencyMacro)
+
+set(Enzyme_DIR @Enzyme_DIR@)
+find_dependency(Enzyme REQUIRED CONFIG)
+
+if(NOT TARGET mfem::mfem)
+    include("${mfem_CMAKE_DIR}/mfemTargets.cmake")
+endif()

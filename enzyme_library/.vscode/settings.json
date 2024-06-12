@@ -1,0 +1,6 @@
+{
+    "cmake.configureArgs": [
+        "-DEnzyme_DIR=/Users/sam/code/Enzyme/build",
+        "-DCMAKE_INSTALL_PREFIX=/Users/sam/code/sandbox/enzyme_library/install"
+    ]
+}

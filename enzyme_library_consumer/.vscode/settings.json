@@ -1,0 +1,5 @@
+{
+    "cmake.configureArgs": [
+        "-Dmfem_DIR=/Users/sam/code/sandbox/enzyme_library/install/cmake/mfem",
+    ]
+}
